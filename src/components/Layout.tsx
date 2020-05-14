@@ -15,9 +15,9 @@ export const Layout: FunctionComponent = ({ children }) => (
       </h1>
       <ul>
         <li>
-          <Link href={'/'}>Home</Link>
-          <Link href={'/example'}>Variant</Link>
-          <Link href={'/withFormContext'}>With Form Context</Link>
+          <Link href={'/'}> [Home] </Link>
+          <Link href={'/example'}> [Variant] </Link>
+          <Link href={'/withFormContext'}> [With Form Context] </Link>
         </li>
       </ul>
       {children}
